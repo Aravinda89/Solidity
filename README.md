@@ -1,2 +1,2 @@
 # Solidity
-Solidity
+Solidity Tutorial
