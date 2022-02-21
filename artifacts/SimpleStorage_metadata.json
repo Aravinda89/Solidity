@@ -7,19 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "favoriteNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
 					{
@@ -69,10 +56,10 @@
 	},
 	"sources": {
 		"Documents/Projects/Solidity/SimpleStorage.sol": {
-			"keccak256": "0xef9abcb0b6490086cfad5505e97ab5de1eb2c4014624670de4b11bb507409d9d",
+			"keccak256": "0xe1f3b50e96a628ce255dfc262bc8c9b7e4bcb080024fd6d561e782489a30205d",
 			"urls": [
-				"bzz-raw://ef6b25ceb302137ca5eb4dd9f7eb2d94081d9d506bdf6c2e44713c8f919f035b",
-				"dweb:/ipfs/QmTMRrm1nh6DEpXTEcxP1CR3cwEtRQBSnHBqpXSiKQn7Xf"
+				"bzz-raw://7fdb1aaaca11ba74d051d598df0b11ae728c41c2388d7aad6cbf325abec48f2d",
+				"dweb:/ipfs/QmUKSyG9Zh51mE33VQJGyMsGiDWzqFUn4ZA4thJWovQyhi"
 			]
 		}
 	},

@@ -4,7 +4,7 @@ contract SimpleStorage {
 
     // This will get initialized to 0
     // view
-    uint256 public favoriteNumber;
+    uint256 favoriteNumber;
 
     function store(uint256 _favoriteNumber) public {
         favoriteNumber = _favoriteNumber;
