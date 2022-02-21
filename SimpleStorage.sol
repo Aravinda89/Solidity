@@ -12,6 +12,7 @@ contract SimpleStorage {
         string name;
     }
 
+    // dynamic array
     People[] public people;
 
     // People public person = People({favoriteNumber:2, name: "Patrick"});
@@ -29,4 +30,7 @@ contract SimpleStorage {
     // function retrieve(uint256 favoriteNumber) public pure {
     //     favoriteNumber + favoriteNumber;
     // }
+
+    function addPerson(string memory _name, uint256 _favoriteNumber) public 
+    people.push(People({favoriteNumber: _favoriteNumber, name: _name}));
 }

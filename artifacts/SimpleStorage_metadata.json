@@ -80,10 +80,10 @@
 	},
 	"sources": {
 		"Documents/Projects/Solidity/SimpleStorage.sol": {
-			"keccak256": "0x37ea31d64fb841fe090aab808eee4181470d91d081fc36b909d9c13973ff12d1",
+			"keccak256": "0xc037c8350a35fcd949863c0906be5a207119968f1155825b69040417de0be0c3",
 			"urls": [
-				"bzz-raw://5fa19867c4abafd096ef37a4a2c68d639ff0643ff53bc9f1a048a70091e9832f",
-				"dweb:/ipfs/QmTao754RJ3AxiTkWekX6vjdn9a8btzuc8ba31WooH2sA3"
+				"bzz-raw://b571a7e4e4e0ed54e0736fc2200f5f262c40e79a5ac7f586e7676df11a4f22c5",
+				"dweb:/ipfs/QmQGE6F1LSNvr7jfstrE46sHXTdSXPM2ndJnHTvRcFnXBA"
 			]
 		}
 	},
