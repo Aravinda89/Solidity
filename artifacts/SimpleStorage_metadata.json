@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"methods": {}
 		},
@@ -29,10 +43,10 @@
 	},
 	"sources": {
 		"Documents/Projects/Solidity/SimpleStorage.sol": {
-			"keccak256": "0x6b4f9afa359a63133f0736128535c26060d3dfb6e5c36556559e532a1ad3a3a1",
+			"keccak256": "0xa0ad575898597c783abb299e8af360ceee55a95769186530c99eadf7613364fd",
 			"urls": [
-				"bzz-raw://4fdbb2a9a41d7345dac824c61b7cf6dff7b852222e2c99d506aa7bce0962bcfa",
-				"dweb:/ipfs/QmYm7PGb1ji1yN1YThcAN8SXEqVabK8yhZwhKwfLssnLQ7"
+				"bzz-raw://47830ce1e8e345c5ecb697595d372325a2d6cc5d187967e0ed84e071ab10da12",
+				"dweb:/ipfs/QmcyzcECTtceiTguMRtraXeVb9r6KAFgnWsjAFivDDFRrN"
 			]
 		}
 	},

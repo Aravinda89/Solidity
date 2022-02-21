@@ -3,6 +3,10 @@ pragma solidity ^0.6.0;
 contract SimpleStorage {
 
     // This will get initialized to 0
-    uint256 favoriteNumber;
+    uint256 public favoriteNumber;
+
+    function store(uint256 _favoriteNumber) private {
+        favoriteNumber = _favoriteNumber;
+    }
 
 }
