@@ -5,8 +5,11 @@ contract SimpleStorage {
     // This will get initialized to 0
     uint256 public favoriteNumber;
 
-    function store(uint256 _favoriteNumber) private {
+    function store(uint256 _favoriteNumber) public {
         favoriteNumber = _favoriteNumber;
     }
 
+    function retrieve() public view returns(uint256) {
+        return favoriteNumber;
+    }
 }

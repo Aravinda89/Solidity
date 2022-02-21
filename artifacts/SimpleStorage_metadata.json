@@ -17,6 +17,32 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -43,10 +69,10 @@
 	},
 	"sources": {
 		"Documents/Projects/Solidity/SimpleStorage.sol": {
-			"keccak256": "0xa0ad575898597c783abb299e8af360ceee55a95769186530c99eadf7613364fd",
+			"keccak256": "0xe84ec250efe8ab2c4cb8b9859ae397af6353857a53f9019c696adb4d68b485af",
 			"urls": [
-				"bzz-raw://47830ce1e8e345c5ecb697595d372325a2d6cc5d187967e0ed84e071ab10da12",
-				"dweb:/ipfs/QmcyzcECTtceiTguMRtraXeVb9r6KAFgnWsjAFivDDFRrN"
+				"bzz-raw://8318feba0659798d7e8bf31f81f5a24071832f7f730fb9be99aca7feda65ed85",
+				"dweb:/ipfs/QmaFcBSiuXSMZGuq1RKCvDJqH87YprjyqsM8wCkD3KLo6R"
 			]
 		}
 	},
