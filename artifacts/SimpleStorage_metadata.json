@@ -6,6 +6,30 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
@@ -56,10 +80,10 @@
 	},
 	"sources": {
 		"Documents/Projects/Solidity/SimpleStorage.sol": {
-			"keccak256": "0x8c90572ba41d150abd9fcc53fb8679d2de5f3579de270f92e0a4af161c0c7fad",
+			"keccak256": "0x37ea31d64fb841fe090aab808eee4181470d91d081fc36b909d9c13973ff12d1",
 			"urls": [
-				"bzz-raw://3a7a94509941a24f4d8a1c9ee87109c707d14a9e5b0ca4ad3588c3d7b5d1c7d9",
-				"dweb:/ipfs/QmNjTrwWzr2wsHE4xRouSFQ7A2a2ndYoLkTWG5zhCK7Qwb"
+				"bzz-raw://5fa19867c4abafd096ef37a4a2c68d639ff0643ff53bc9f1a048a70091e9832f",
+				"dweb:/ipfs/QmTao754RJ3AxiTkWekX6vjdn9a8btzuc8ba31WooH2sA3"
 			]
 		}
 	},

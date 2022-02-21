@@ -5,11 +5,14 @@ contract SimpleStorage {
     // This will get initialized to 0
     // view
     uint256 favoriteNumber;
+    bool favoriteBool;
 
     struct People {
         uint256 favoriteNumber;
         string name;
     }
+
+    People[] public people;
 
     // People public person = People({favoriteNumber:2, name: "Patrick"});
 
