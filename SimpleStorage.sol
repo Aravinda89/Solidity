@@ -14,6 +14,7 @@ contract SimpleStorage {
 
     // dynamic array
     People[] public people;
+    mapping(string => uint256) public nameToFavouriteNumber;
 
     // People public person = People({favoriteNumber:2, name: "Patrick"});
 
@@ -34,5 +35,6 @@ contract SimpleStorage {
     function addPerson(string memory _name, uint256 _favoriteNumber) public{
         // people.push(People({favoriteNumber: _favoriteNumber, name: _name}));
         people.push(People(_favoriteNumber, _name));
+        nameToFavouriteNumber[_name] = _favoriteNumber;
     }
 }

@@ -26,6 +26,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavouriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -98,10 +117,10 @@
 	},
 	"sources": {
 		"Documents/et/Solidity/SimpleStorage.sol": {
-			"keccak256": "0xd80c9bd4a6b2c25fc8ca3e7ba48ba083cdc51b5e261c97d0c54ac591ad99dde0",
+			"keccak256": "0x74ac5c45253fe251d01af5e7b9938568a802f6b83e869c520ecffc7ceef55ba2",
 			"urls": [
-				"bzz-raw://df73c5dffd069c1c64d9149fa037ea30fe393141520129838dd066298664846f",
-				"dweb:/ipfs/QmV1DJqK4cSqeN8K1Um7KJ8o2u5buX4U9kvdQbM3hbhN8L"
+				"bzz-raw://5d9f151197b1dbef6ba101614bd2012580d5fd75ccb35086e1033f49fc39ad0c",
+				"dweb:/ipfs/QmRLbBufS8Atu9bR6KpgdBsTCL5Azz7GQwsZGXitp8HMGL"
 			]
 		}
 	},
