@@ -1,3 +1,5 @@
+// SPDX-License-Identifier; MIT
+
 pragma solidity ^0.6.0;
 
 contract SimpleStorage {
@@ -34,7 +36,7 @@ contract SimpleStorage {
 
     function addPerson(string memory _name, uint256 _favoriteNumber) public{
         // people.push(People({favoriteNumber: _favoriteNumber, name: _name}));
-        people.push(People(_favoriteNumber, _name));
-        nameToFavouriteNumber[_name] = _favoriteNumber;
+        people.push(People(_favoriteNumber, _name));     // array
+        nameToFavouriteNumber[_name] = _favoriteNumber;  // mapping
     }
 }
