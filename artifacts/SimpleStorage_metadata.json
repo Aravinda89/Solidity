@@ -8,6 +8,24 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -65,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Documents/Projects/Solidity/SimpleStorage.sol": "SimpleStorage"
+			"Documents/et/Solidity/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -79,11 +97,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Documents/Projects/Solidity/SimpleStorage.sol": {
-			"keccak256": "0xc037c8350a35fcd949863c0906be5a207119968f1155825b69040417de0be0c3",
+		"Documents/et/Solidity/SimpleStorage.sol": {
+			"keccak256": "0xd80c9bd4a6b2c25fc8ca3e7ba48ba083cdc51b5e261c97d0c54ac591ad99dde0",
 			"urls": [
-				"bzz-raw://b571a7e4e4e0ed54e0736fc2200f5f262c40e79a5ac7f586e7676df11a4f22c5",
-				"dweb:/ipfs/QmQGE6F1LSNvr7jfstrE46sHXTdSXPM2ndJnHTvRcFnXBA"
+				"bzz-raw://df73c5dffd069c1c64d9149fa037ea30fe393141520129838dd066298664846f",
+				"dweb:/ipfs/QmV1DJqK4cSqeN8K1Um7KJ8o2u5buX4U9kvdQbM3hbhN8L"
 			]
 		}
 	},
